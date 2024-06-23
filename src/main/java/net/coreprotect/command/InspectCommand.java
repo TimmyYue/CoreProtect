@@ -27,7 +27,7 @@ public class InspectCommand {
 
             if (!ConfigHandler.inspecting.get(player.getName())) {
                 if (command == 0) {
-                    Chat.sendMessage(player, Color.DARK_AQUA + "CoreProtect " + Color.WHITE + "- " + Phrase.build(Phrase.INSPECTOR_ERROR, Selector.SECOND)); // already disabled
+                    Chat.sendMessage(player, Color.DARK_AQUA + "方塊紀錄 " + Color.WHITE + "- " + Phrase.build(Phrase.INSPECTOR_ERROR, Selector.SECOND)); // already disabled
                 }
                 else {
                     Chat.sendMessage(player, Color.DARK_AQUA + "CoreProtect " + Color.WHITE + "- " + Phrase.build(Phrase.INSPECTOR_TOGGLED, Selector.FIRST)); // now enabled
